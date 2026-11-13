@@ -23,6 +23,7 @@ export default function BookingForm() {
         <p>WhatsApp: <a href={`https://wa.me/${contact.whatsapp}`}>{contact.whatsappLabel}</a></p>
         <p>E-mail: <a href={`mailto:${contact.email}`}>{contact.email}</a></p>
         <p>Instagram: <a href={`https://instagram.com/${contact.instagram}`} target="_blank" rel="noopener noreferrer">@{contact.instagram}</a></p>
+        <p>Canal no YouTube: <a href={`https://www.youtube.com/channel/${contact.youtube}`} target="_blank" rel="noopener noreferrer">João Araújo</a></p>
       </div>
       <form onSubmit={submit}>
         <label>Seu nome<input required value={f.name} onChange={set('name')} autoComplete="name" /></label>

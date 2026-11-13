@@ -5,6 +5,7 @@ export const contact = {
   whatsapp: '5522998391768', // DDI + DDD + número
   whatsappLabel: '(22) 99839-1768',
   email: 'assessoriajoaoaraujo@gmail.com',
+  youtube: 'UCANIMPGdHbU_IpnuHjlHKXA', // ID do canal
   baseCity: 'Cornélio Procópio',
   age: new Date().getFullYear() - 2003, // Ano de nascimento
 }
@@ -40,7 +41,7 @@ export const notes = [
 export const videos = [
   { id: 1, title: 'Casamento', type: 'file', src: '/videos/take-1.mp4', poster: '/images/take-1.jpg', vertical: true },
   { id: 2, title: 'Show ao vivo', type: 'file', src: '/videos/take-2.mp4', poster: '/images/take-2.jpg', vertical: true },
-  // { id: 3, title: 'Show completo', type: 'youtube', src: 'COLOQUE_O_ID_DO_YOUTUBE' },
+  { id: 3, title: 'Cover - Escreve Ai', type: 'youtube', src: 'S6Oq4VCoFms?si=pO5N51oUC8ffv36c' },
 ]
 
 export const heroImage = '/images/hero.jpg'
